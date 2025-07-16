@@ -1,0 +1,27 @@
+# now we use pyproject.toml instead of setup.py
+# setup.py was used in legacy systems
+
+[build-system]
+requires = ["setuptools >= 42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ml-sentiment-analyzer"
+version = "0.0.1"
+description = "This project do the sentimet analysis of the given input text. The model is trained on the youtube comments data."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Tanuj Sengar", email = "tanujsengar400@gmail.com"}
+]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "seaborn"
+    "matplotlib"
+]
+
+[project.urls]
+Repository = "https://github.com/tanujsengar/ml-sentiment-analyzer.git"

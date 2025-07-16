@@ -1,0 +1,15 @@
+# To create virtual environment in present working directory using conda cli
+conda create -p <virtual_env_name> python==<python_version>
+
+# To create virtual environment in given directory path using conda cli
+conda create -n <virtual_env_name> python==<python_version>
+
+# To create virtual environment using python
+python -m venv <path/to/virtual_env_folder>
+
+# To activate environment
+conda activate <virtual_env_name>/
+
+# To package the project
+pip install -e .
+
