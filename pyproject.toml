@@ -19,8 +19,11 @@ dependencies = [
     "numpy",
     "pandas",
     "scikit-learn",
-    "seaborn"
-    "matplotlib"
+    "seaborn",
+    "matplotlib",
+    "catboost",
+    "nltk",
+    "spacy"
 ]
 
 [project.urls]
